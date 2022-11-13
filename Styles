@@ -1,0 +1,309 @@
+/* Start Header Compact */
+#axero-header-compact,
+.navbar #axero-header,
+#axero-header-social {
+    background: #000000;
+}
+
+/* End Header Compact */
+
+/*Button Styles*/
+
+.btn-wrapper .axero-widget-content.axero-widget-content-padded.axero-entity-formatted-content .btn {
+    margin: 16px 0;
+}
+
+a.btn {
+    color: #000;
+    font-size: .75rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.1px !important;
+    font-weight: 600;
+    border: solid 1px #121212;
+    padding: 10px 16px;
+    background-color: #fff;
+}
+
+a.btn:hover {
+    color: #fff;
+    background: var(--place-black);
+}
+
+a.btn.btn-fill {
+    display: flex;
+    justify-content: center;
+}
+
+a.btn.btn-dark {
+    color: #fff;
+    background: var(--place-black);
+}
+
+
+/* Use these variables to adjust the global colors */
+:root {
+    --zeppelin-sub-header-background-color: #fff;
+    --zeppelin-sub-header-item-hover-color: #f0f0f0;
+    --zeppelin-sub-header-text-color: #161616;
+    --icon-highlighted-color: #000000;
+    --font-family: "Proxima-Nova", sans-serif;
+    --place-blue: #3270FA;
+    --border-color: #e0e0e0;
+    --accent-color: #999999;
+    --place-black: #121212;
+}
+
+body {
+    background: var(--background-primary);
+}
+
+/* font sizes are set in rem. 1rem = 16px*/
+h1 {
+    font-size: 1.9rem !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-size: 1.6rem !important;
+    font-weight: 700 !important;
+}
+
+h3 {
+    font-size: 1.3rem !important;
+    font-weight: 700 !important;
+}
+
+h4 {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+h5 {
+    font-size: .87rem !important;
+    font-weight: 600 !important;
+}
+
+h6 {
+    font-size: .75rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: .9px !important;
+}
+
+
+p,
+span {
+    font-size: .87rem;
+    margin: 0 0 3px;
+}
+
+/*Notifications*/
+
+.axero-notification-alert {
+    background: var(--place-blue);
+}
+
+/*line height single space for lists in entities*/
+
+.axero-entity-formatted-content li {
+    margin: 0 0 0px;
+    line-height: 1.4;
+}
+
+.axero-entity-formatted-content li p {
+    margin: 0 0 .5em;
+}
+
+.category-eyebrow,
+.xs-eyebrow {
+    font-weight: 900;
+    font-size: 11px !important;
+    color: var(--accent-color) !important;
+}
+
+.zeppelin-sub-header .container .row-fluid .span12 ul.x-head-block-container>li>a:hover {
+    border-radius: 0px;
+    transition: .1s;
+}
+
+
+/*fix responsive header color*/
+.axero-space-header-options {
+    background-color: #fff !important;
+}
+
+/* Start Header Compact */
+#axero-header-compact,
+.navbar #axero-header,
+#axero-header-social {
+    background: #000000;
+}
+
+
+/*Page builder styles*/
+
+.home_row {
+    padding-top: 18px;
+}
+
+/* Left Navigation styling - for the left nav in a space, set the font styles on the navigation group, 
+then set styles on .item-not-header*/
+
+#id_28 {
+    padding: 10px 10px 10px 10px;
+    background: var(--icon-highlighted-color) !important;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: solid 0px var(--border-color);
+    font-weight: 600;
+    transition: .2s;
+
+
+}
+
+#id_28:hover {
+    box-shadow: 5px 5px 10px 0 rgb(0 0 0 / 4%), -5px 0 10px 0 rgb(0 0 0 / 4%) !important;
+    text-decoration: none;
+    -webkit-transform: scale(1.04);
+    transform: scale(1.01);
+}
+
+/**hide box shadow on home nav-left**/
+.axero-space-navigation ul:not(.dropdown-menu)>.axero-space-navigation-item.item-not-header:hover,
+.axero-space-menu:not(.sortable-mode) .axero-space-navigation ul:not(.dropdown-menu)>.active {
+    background: var(--background-primary);
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: none !important;
+}
+
+.axero-space-menu:not(.sortable-mode) .axero-space-navigation .axero-space-navigation-item.item-header {
+    border-bottom: solid 1px var(--input-border-color);
+    border-top: solid 0px var(--input-border-color);
+    padding: 10px 0;
+}
+
+
+.axero-space-menu .axero-space-navigation ul li.axero-space-navigation-item .axero-space-navigation-item-name {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
+.axero-space-menu .axero-space-navigation ul li.axero-space-navigation-item.item-not-header .axero-space-navigation-item-name {
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.axero-space-menu .axero-space-navigation ul li.axero-space-navigation-item .axero-space-navigation-item-icon {
+    margin-left: 5px !important;
+}
+
+.axero-space-menu .axero-space-navigation ul li.axero-space-navigation-item.item-not-header:active {
+    border: 1px solid var(--border-color) !important;
+}
+
+.axero-space-menu .axero-space-navigation ul li.axero-space-navigation-item.item-not-header:hover {
+    border: 1px solid var(--border-color) !important;
+}
+
+
+
+/*Widget Styling for non-place widgets*/
+
+/*hide box shadows on widgets and replace with flat lines to match mockups*/
+.axero-widget {
+    box-shadow: none;
+    border: 1px solid var(--border-color);
+}
+
+.axero-search-widget .axero-widget-content {
+    border: none !important;
+    padding: 0px !important;
+}
+
+#axero-search-widget-1001 {
+    border: none !important;
+}
+
+.axero-widget.axero-widget-no-border .axero-widget-content-padded {
+    padding: 1px;
+}
+
+/*PLACE 1 col-compact image left template*/
+
+.axero-widget-spaces ul li a {
+    padding: 16px 20px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.axero-widget-spaces ul li a .space-photo {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.axero-widget-spaces ul li a .space-photo img {
+    border-radius: 4px;
+    width: 100% !important;
+}
+
+/*XS newsroom wide template*/
+
+.xs-newsroom-wide .xs-content ul li a .tile-content .tile-content-text .tile-head h4 {
+    font-size: 18px !important
+}
+
+.ax-entity-rel-content ul li .thumbnail {
+    box-shadow: none !important;
+    border: 1px solid var(--border-color)
+}
+
+/*XS - Newsroom simple (Horizontal Items with Hero)*/
+.xs-newsroom-wide-columns .xs-content ul li a .tile-content .tile-content-text .tile-head .tile-summary {
+    display: block;
+}
+
+.xs-newsroom-wide-columns .xs-content ul li a .tile-content .tile-content-text .tile-head p {
+    display: block !important;
+}
+
+/*XS - Newsroom wide*/
+.xs-newsroom-wide .xs-content ul li a .tile-content .tile-media {
+    filter: saturate(93%) contrast(.9) !important;
+}
+
+/*Custom page header style*/
+
+.page-header-title-h1 h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.subheader {
+    margin: 0px !important;
+    font-size: 14px;
+}
+
+
+.axero-widget.page-header-title-h1,
+.axero-widget-no-border {
+    margin: 0;
+}
+
+.axero-space-header-title-info,
+.axero-space-header-title-info a {
+    text-transform: uppercase;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    color: var(--accent-color);
+}
